@@ -1,0 +1,177 @@
+/* ---RESET--- */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 12px;
+}
+
+/* ---GENERAL--- */
+
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800|Dosis:300,600");
+body {
+	font-family: "Open Sans",sans-serif;
+	color:#616771;
+	font-weight:300;
+	font-size: 14px;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.inwrapp {
+	width: 1111px;
+	margin: 0 auto;
+}
+
+.header-background {
+	background-image: url("../images/bg-thunder.jpg");
+	width: 100%;
+	height: 100vh;
+	background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+/* ---TOP BAR--- */
+
+.top-bar {
+	padding-top: 40px;
+}
+
+.logo {
+	float: left;
+	color: white;
+	font-size: 16px
+}
+
+.logo span {
+	font-weight: bold;
+	font-size: 16px
+}
+
+.top-menu {
+	float: right;
+}
+
+.top-menu ul li {
+	display: inline;
+	margin-right: 25px;
+}
+
+.top-menu ul li:last-child {
+	margin-right: 0;
+}
+
+.top-menu ul li a {
+	color: gray;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+
+}
+
+.top-menu ul li a:hover {
+	color: white;
+}
+
+/* ---HEADER--- */
+
+.header-text {
+	float: left;
+	width: 448px;
+	margin-top: 137px;
+}
+
+.header-text h1 {
+	font-size: 42px;
+	color: white;
+}
+
+.header-text p {
+	font-size: 15px;
+	margin-top: 54px;
+	color: white;
+	line-height: 27px;
+}
+
+.header-pic {
+	float: right;
+	margin-top: 95px;
+}
+
+.header-text div {
+	display: inline-block;
+	width: 200px;
+	height: 43px;
+	border: 1px solid white;
+	text-align: center;
+	border-radius: 5px;
+	padding-top: 13px;
+	cursor: pointer;
+}
+
+.header-text div a {
+	color: #b8bcc1;
+	text-transform: uppercase;
+}
+
+.header-text div a:hover {
+	color: #616771;
+}
+
+.download-now {
+	background-color: white;
+}
+
+.features:hover {
+	background-color: white;
+}
+
+/* ---MORE THAN--- */
+
+.more-than-pic {
+	margin-top: 110px;
+	float: left;
+}
+
+.more-content {
+	padding-top: 138px;
+}
+
+.more-main-text {
+	float: right;
+	width: 510px;
+}
+
+.more-main-text h3 {
+	font-size: 22px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	margin-bottom: 30px;
+}
+
+.more-main-text p {
+	font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
