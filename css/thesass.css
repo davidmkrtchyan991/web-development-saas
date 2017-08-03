@@ -1,0 +1,391 @@
+/*-----------------------
+	General Styles start
+-------------------------*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;    
+    outline: 0;
+}
+body {
+	font-family: 'Open Sans', sans-serif;		
+	line-height: 32px;
+	color: #616771;	
+}
+.page-wrapper {
+	margin: 0;
+}
+ header, section, footer, aside, nav, main, article, figure {
+		display: block; 
+}
+
+.page-width {
+	width: 1115px;
+	margin: 0 auto;
+	overflow: hidden;	
+}
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+}
+::-moz-selection { /* Code for Firefox */
+    background: #31b8f5;
+    color: #fff;    
+}
+::selection {
+    background: #31b8f5;
+    color: #fff;
+}
+.head1 {
+	font-size: 55px;		
+}
+.head2 {	
+	font-size: 28px;
+}
+.head3 {
+	font-size: 20px;	
+}
+.head4 {
+	font-size: 17px;
+	font-weight: 300;
+}
+.head6 {
+	font-size: 11px;
+	color: #b5b9bf;	
+}
+.btn {
+	cursor: pointer;
+	font-weight: 600;
+}
+.column1 {
+	float: left;
+}
+.column2 {
+	float: right;
+}
+.line {
+	width: 50px;
+	margin: 0 auto;
+}
+/*---------------------
+	General Styles end
+-----------------------*/
+
+/*-------------------
+	Header start
+---------------------*/
+	
+header {
+	width: 100%;
+	height: 694px;
+	background-image: url('../images/bg-thunder.jpg');
+    background-size: 100% 100%;    
+}
+.header-innerwrapper {
+	padding-top: 40px;
+}
+.navigation {
+	overflow: hidden;
+	margin-bottom: 113px;
+}
+.logo {
+	float: left;
+}
+.logo-image {
+	width: 80px;
+	height: 14px;
+}
+nav {
+	float: right;
+}
+nav ul li {
+	display: inline-block;
+}
+nav ul li a {
+	color: grey;
+	font-weight: bold;
+	margin-left: 20px;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+nav ul li a:hover {
+	color: #fff;
+}
+.land-page {
+	float: left;
+	width: 580px;
+	color: #fff;
+}
+.land-page .head1 {
+	margin-bottom: 40px;
+}
+.land-pagetext {
+	font-size: 17px;
+	margin-bottom: 77px;	
+}
+.land-page .btn {
+	width: 198px;
+	height: 40px;
+	margin-right: 5px;
+	border-radius: 2px;
+	color: #a99090;
+}
+.land-page .btn.dwn {
+	background-color: #fff;	
+}
+.land-page .btn.dwn:hover {
+	color: #af4f4f;
+}
+.land-page .btn.fet {
+	background-color: transparent;
+	border: 1px solid grey;
+	transition: background-color 0.6s;
+}
+.land-page .btn.fet:hover {
+background-color: #fff;
+}
+.banner {
+	float: right;
+}
+.banner img {
+	width: 350px;
+	height: 508px;
+}
+/*-------------------
+	Header end
+---------------------*/
+
+/*-------------------
+	Content start
+---------------------*/
+.content {
+	background-color: #fff;
+	width: 100%;
+	height: 690px;
+	padding-top: 90px;
+}
+.content-image {
+	float: left;
+}
+.content-image img {
+	width: 434px;
+	height: 600px;
+}
+.content-text {
+	float: right;
+	width: 570px;
+	padding-top: 35px;
+	margin-right: 25px;	
+}
+.content-text .head2 {
+	color: #37404d;
+	margin-bottom: 26px;
+}
+.functionality {
+	margin-top: 80px;
+}
+.column {
+	float: left;
+	width: 250px;
+}
+.column i {
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+.column .col-title {
+	margin-bottom: 23px;
+}
+.productivity i {
+	color: #ffbe00;	
+}
+.synchronize {
+	margin-left: 52px;
+}
+.synchronize i {
+	color: #ff4954 ;
+}
+
+/*-------------------
+	Content end
+---------------------*/
+/*-------------------
+	Features start
+---------------------*/
+.features {
+	background-color: #f64d62;
+	width: 100%;
+	height: 623px;
+	padding-top: 90px;
+	color: #fff;
+	overflow: hidden;
+}
+.features-text {
+	width: 610px;	
+}
+.features-text .head2 {
+	margin-bottom: 26px;
+}
+.features-sample {
+	margin-top: 80px;
+}
+.statistics {
+	margin-left: 52px;
+}
+.features-image img {
+	margin-right: 60px;
+	width: 300px;
+	height: 534px;
+}
+/*-------------------
+	Features end
+---------------------*/
+
+/*-------------------
+	Screenshots start
+---------------------*/
+.screenshots {
+	width: 100%;
+	height: 797px;
+	padding-top: 100px;
+	background-color: #fff;
+	color: #37404d;
+	text-align: center;
+}
+.screenshots .head2 {
+	margin: 20px 0 44px;
+}
+.screenshots .head5 {
+	margin: 30px 0 80px;
+}
+.slider {
+	width: 800px;
+	height: 353px;
+	margin: 0 auto;
+}
+.slider img {
+	width: 400px;
+	height: 353px;
+}
+
+/*-------------------
+	Screenshots end
+---------------------*/
+
+/*-------------------
+	Team start
+---------------------*/
+.team {
+	background-color: #f8f8f8;
+	height: 672px;
+	text-align: center;
+}
+.team .head6 {
+	margin: 97px 0 33px;
+}
+.staff {
+	margin-top: 78px;
+}
+.team .line {	
+	margin: 45px auto 30px;
+}
+.staff img {
+	width: 128px;
+	height: 128px;
+	border-radius: 50%;
+}
+.team-member {
+	float: left;
+}
+.team-member:not(:first-child) {
+	margin-left: 155px;
+}
+.social a {
+	color: grey;
+	font-size: 11px;
+}
+.social a:not(:first-child) {
+	margin-left: 18px;
+}
+/*-------------------
+	Team end
+---------------------*/
+
+/*-------------------
+	Download start
+---------------------*/
+.download {
+	background-image: url('../images/bg-gift.jpg');
+    background-size: 100% 100%;
+    height: 735px;
+    position: relative;
+    color: #fff;
+    text-align: center; 
+}
+.app-download {
+	width: 495px;
+	height: 500px;
+ 	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	background-color: black;
+}
+.app-download .logo-image {
+	margin: 39px 0 40px;
+}
+.app-download .head5 {
+	font-size: 13px;
+	width: 380px;
+	margin: 28px auto 37px;	
+}
+.stars {
+	margin: 20px 0 17px;
+}
+.app-download i {
+	color: #ffba00;
+}
+.market {
+	margin-top: 20px;
+}
+.market img:last-child {
+	margin-left: 10px;
+}
+
+/*-------------------
+	Download end
+---------------------*/
+
+/*-------------------
+	Users start
+---------------------*/
+.users {
+	background-color: #fff;
+	height: 647px;
+	text-align: center;
+}
+.users .head6 {
+	margin: 100px 0 37px;
+}
+.users .line {
+	margin: 37px auto 27px;
+}
+/*-------------------
+	Users end
+---------------------*/
+.scroll-btn i {
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: #31b8f5;
+	right: 30px;
+	bottom: 30px;
+	text-align: center;
+	padding: 15px;
+	color: #fff;
+}
