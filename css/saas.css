@@ -14,22 +14,36 @@ a {
 	text-decoration: none;
 }
 
+p{
+	font-size: 15px;
+	letter-spacing: 0.6px;
+}
+
 ul {
 	list-style-type: none;
 }
 
+h3 {
+	font-size: 28px;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+h4 {
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
 
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800|Dosis:300,600");
+
 body {
 	font-family: "Open Sans",sans-serif;
-	color:#616771;
-	font-weight:300;
-	font-size: 14px;
+    color: #616771;
+    font-weight: 300;
+    line-height: 1.9;
 }
 
-.clearfix {
-	clear: both;
-}
 
 .inwrapp {
 	width: 1111px;
@@ -85,6 +99,7 @@ body {
 
 .top-menu ul li a:hover {
 	color: white;
+	transition: .7s;
 }
 
 /* ---HEADER--- */
@@ -142,30 +157,125 @@ body {
 
 /* ---MORE THAN--- */
 
-.more-than-pic {
+.more-than {
 	margin-top: 110px;
+	overflow:hidden;
+}
+
+.more-than-pic {
+	width: 50%;
 	float: left;
 }
 
 .more-content {
-	padding-top: 138px;
+	width: 50%;
+	margin-top: 50px;
+	float: right;
 }
 
 .more-main-text {
-	float: right;
 	width: 510px;
-}
-
-.more-main-text h3 {
-	font-size: 22px;
-	font-weight: bold;
-	letter-spacing: 1px;
-	margin-bottom: 30px;
+	margin-bottom: 80px;
 }
 
 .more-main-text p {
-	font-size: 16px;
+	margin-top:10px;
 }
+
+.more-sub-text {
+	width: 50%;
+	float: left;
+}
+
+
+.more-content .fa {
+	font-size: 30px;
+	margin-bottom: 14px;
+}
+
+.fa-tv {
+	color: #ffbe00;
+}
+
+.fa-code {
+	color: #ff4954;
+}
+
+
+/* ---END OF MORE THAN--- */
+
+/* ---ENDLESS--- */
+
+.endless-background {
+	background-color: #f64d62;
+}
+
+.endless {
+	color: #ffffff;
+	padding-top: 110px;
+	overflow:hidden;
+}
+
+.endless-pic {
+	width: 50%;
+	float: right;
+}
+
+.endless-pic img {
+	
+}
+
+.endless-content {
+	width: 50%;
+	margin-top: 50px;
+	float: left;
+}
+
+.endless-content .fa {
+	font-size: 30px;
+	margin-bottom: 14px;
+}
+
+.endless-main-text {
+	width: 510px;
+	margin-bottom: 80px;
+}
+
+.endless-main-text p {
+	margin-top:10px;
+}
+
+.endless-sub-text {
+	width: 50%;
+	float: left;
+}
+
+/* ---END OF ENDLESS--- */
+
+/* ---SCREENSHOTS--- */
+
+.screenshots {
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
