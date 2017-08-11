@@ -134,7 +134,7 @@ body {
 	border: 1px solid white;
 	text-align: center;
 	border-radius: 5px;
-	padding-top: 13px;
+	padding-top: 10px;
 	cursor: pointer;
 }
 
@@ -153,6 +153,7 @@ body {
 
 .features:hover {
 	background-color: white;
+	transition: .5s;
 }
 
 /* ---MORE THAN--- */
@@ -252,36 +253,182 @@ body {
 
 /* ---END OF ENDLESS--- */
 
-/* ---SCREENSHOTS--- */
-
-.screenshots {
+/*=== GENERAL FOR FOLLOWING 3 BLOCKS ===*/
+.same-head {
+	padding:100px 0;
 	text-align: center;
 }
 
+.same-head span {
+	font-size: 11px;
+	opacity: .5;
+}
+
+.same-head h3 {
+	padding: 30px 0 40px;
+}
+
+.same-head hr {
+	border-top-color: #688eac;
+	width: 50px;
+	margin: 0 auto;
+	opacity: 0.1;
+}
+
+.same-head .desc {
+	font-size: 17px;
+	margin: 30px 0 90px;
+}
+
+/* ---SCREENSHOTS--- */
 
 
+.screenshots-slider {
+	width: 1100px;
+	margin: 0 auto 110px;
+}
 
+.screenshots-slider img {
+	width: 100%;
+}
 
+/* ---END OF SCREENSHOTS--- */
 
+/* ---OUR TEAM--- */
 
+.our-team-background {
+	background-color: #f8f8f8;
+}
 
+.persons {
+	width: 1140px;
+	margin: 0 auto;
+	overflow: hidden;
+}
 
+.person {
+	width: 25%;
+	float: left;
+}
 
+.person-pic {
+	width: 130px;
+	height: 130px;
+	margin: 0 auto;
+}
 
+.person-pic img {
+	max-width: 100%;
+	border-radius: 50%;
+}
 
+.person-name {
+	font-weight: 600;
+	margin: 34px 0 8px;
+}
 
+.profession {
+	font-size: 10px;
+	opacity: .7;
+}
 
+.person-social {
+	margin-top: 8px;
+}
 
+.person-social .fa {
+	font-size: 15px;
+	opacity: .8;
+	margin-right: 15px;
+}
 
+.person-social .fa:hover {
+	color: #31589a;
+	transition: 0.5s;
+	cursor: pointer;
+}
 
+.person-social .fa:last-child {
+	margin-right: 0;
+}
 
+/* ---END OF OUR TEAM--- */
 
+/* ---DOWNLOAD--- */
 
+.download {
+	padding: 120px 0;
+	background-image: url("../images/bg-gift.jpg");
+	width: 100%
+	height:auto;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+}
 
+.advert {
+	width: 490px;
+	height: 490px;
+	outline: none;
+	margin: 0 auto;
+}
 
+.advert img {
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+}
 
+/* ---END OF DOWNLOAD--- */
 
+/* ---USERS--- */   /*  :DDDDDD    */
 
+/* ---FOOTER---*/
 
+.footer-background {
+	border-top: 1px solid #f1f2f3;
+}
 
+.footer {
+	padding: 30px 0;
+	overflow: hidden;
+}
 
+.footer div {
+	display: inline-block;
+}
+
+.footer .logo {
+	color: #37404d;
+}
+
+.footer-nav {
+	width: 390px;
+	margin: 0 274px;
+}
+
+.footer-nav ul li {
+	width: 19%;
+    display: inline-block;
+    text-align: center;
+}
+
+.footer-nav ul li a {
+	color: #616771;
+	font-weight: 600;
+}
+
+.footer-nav ul li a:hover {
+	color: #6ecdf7;
+	transition: .5s;
+}
+
+.footer-social i {
+	margin-left: 10px;
+}
+
+.footer-social i:first-child {
+	margin-left: 0;
+}
+
+/* ---END OF FOOTER---*/
